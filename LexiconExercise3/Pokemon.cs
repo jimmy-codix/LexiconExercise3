@@ -12,11 +12,13 @@ namespace LexiconExercise3
         protected string Name { get; set; } = String.Empty;
         protected int Level { get; set; } = 0;
         protected ElementType Type { get; set; }
-        protected List<Attack> Attacks { get; set; }
+        public List<Attack> Attacks { get; set; } = new List<Attack>();
 
         public void RandomAttack()
         {
             // Picks a random attack from the list of attacks and invokes its .Use-method.
+            //TODO FIX
+            Attacks[0].Use(Level);
         }
 
         public void Attack()
