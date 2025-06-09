@@ -8,7 +8,7 @@ namespace LexiconExercise3.Pokemons
 {
     internal class WaterPokemon : Pokemon
     {
-        public WaterPokemon()
+        public WaterPokemon(List<Attack> attacks) : base(attacks)
         {
             Type = ElementType.Water;        
         }

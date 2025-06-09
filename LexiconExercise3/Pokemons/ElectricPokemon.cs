@@ -8,7 +8,7 @@ namespace LexiconExercise3.Pokemons
 {
     internal class ElectricPokemon : Pokemon
     {
-        public ElectricPokemon()
+        public ElectricPokemon(List<Attack> attacks) : base(attacks)
         {
             Type = ElementType.Electric;
         }

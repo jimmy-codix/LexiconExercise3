@@ -8,8 +8,8 @@ namespace LexiconExercise3.Pokemons
 {
     internal class FirePokemon : Pokemon
     {
-        public FirePokemon() 
-        { 
+        public FirePokemon(List<Attack> attacks) : base(attacks)
+        {
             Type = ElementType.Fire;
         }
     }

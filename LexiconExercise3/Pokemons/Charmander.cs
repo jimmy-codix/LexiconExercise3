@@ -8,5 +8,6 @@ namespace LexiconExercise3.Pokemons
 {
     internal class Charmander : FirePokemon
     {
+        public Charmander(List<Attack> attacks) : base(attacks) {}
     }
 }

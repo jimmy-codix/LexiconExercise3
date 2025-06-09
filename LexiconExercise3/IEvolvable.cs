@@ -8,6 +8,6 @@ namespace LexiconExercise3
 {
     internal interface IEvolvable
     {
-        protected void Evolve();
+        public void Evolve();
     }
 }

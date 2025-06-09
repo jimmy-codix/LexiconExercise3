@@ -8,5 +8,6 @@ namespace LexiconExercise3.Pokemons
 {
     internal class Squirtle : WaterPokemon
     {
+        public Squirtle(List<Attack> attacks) : base(attacks) {}
     }
 }

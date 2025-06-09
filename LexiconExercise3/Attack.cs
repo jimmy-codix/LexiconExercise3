@@ -8,8 +8,8 @@ namespace LexiconExercise3
 {
     internal class Attack
     {
-        protected string Name { get; private set; } = String.Empty;
-        protected ElementType Type { get; private set; }
+        public string Name { get; private set; } = String.Empty;
+        public ElementType Type { get; private set; }
         protected int BasePower { get; private set; }
 
         public Attack(string name, ElementType type, int basePower)
@@ -21,8 +21,7 @@ namespace LexiconExercise3
 
         public void Use(int level)
         {
-            //TODO Fix this
-            Console.WriteLine($"{Name} hits with total power {BasePower + level}");
+            Console.WriteLine($"{Name} hits with total power {BasePower + level}!");
         }
 
     }

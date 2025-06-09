@@ -8,6 +8,8 @@ namespace LexiconExercise3.Pokemons
 {
     internal class Pikachu : ElectricPokemon, IEvolvable
     {
+        public Pikachu(List<Attack> attacks) : base(attacks) {}
+
         public void Evolve()
         {
             string prevName = Name;
