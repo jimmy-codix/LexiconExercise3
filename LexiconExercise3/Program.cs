@@ -1,4 +1,5 @@
 ﻿using LexiconExercise3.Pokemons;
+using LexiconExercise3.Pokemons.Chars;
 
 namespace LexiconExercise3
 {
@@ -21,7 +22,7 @@ namespace LexiconExercise3
             var squirtle = new Squirtle(new List<Attack>() { drown, oceanwave })
             {
                 Name = "Squirtle",
-                Level = 1
+                Level = 5
             };
 
             var thunder = new Attack("Thunder", ElementType.Electric, 12);
@@ -29,7 +30,7 @@ namespace LexiconExercise3
             var pikachu = new Pikachu(new List<Attack>() { thunder, bolt })
             {
                 Name = "Pikachu",
-                Level = 1
+                Level = 10
             };
 
             pokemons.Add(charamander);

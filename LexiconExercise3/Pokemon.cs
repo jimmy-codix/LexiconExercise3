@@ -10,8 +10,8 @@ namespace LexiconExercise3
     internal abstract class Pokemon
     {
         //TODO validation
-        private string _name;
-        private int _level;
+        private string _name = string.Empty;
+        private int _level = 0;
         public string Name
         {
             get { return _name; }

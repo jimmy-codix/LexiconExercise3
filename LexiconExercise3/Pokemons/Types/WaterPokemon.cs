@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LexiconExercise3.Pokemons
+namespace LexiconExercise3.Pokemons.Types
 {
     internal class WaterPokemon : Pokemon
     {
